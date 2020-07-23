@@ -17,7 +17,7 @@ public class FiZZBuzzWhizz {
                 result += "Buzz";
             }
             if (count % 7 == 0) {
-
+                result += "Whizz";
             }
         }
 
