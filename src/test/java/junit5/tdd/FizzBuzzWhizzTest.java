@@ -40,4 +40,12 @@ public class FizzBuzzWhizzTest {
         assertEquals("Whizz", result);
     }
 
+    @Test
+    void should_return_FizzBuzz_when_play_given_15() {
+        String result = new FiZZBuzzWhizz().play(15);
+        assertEquals("FizzBuzz", result);
+    }
+
+
+
 }
