@@ -16,6 +16,9 @@ public class FiZZBuzzWhizz {
             if (count % 5 == 0) {
                 result += "Buzz";
             }
+            if (count % 7 == 0) {
+
+            }
         }
 
         return result;

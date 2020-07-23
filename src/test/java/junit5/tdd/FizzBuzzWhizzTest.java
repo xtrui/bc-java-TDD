@@ -30,8 +30,8 @@ public class FizzBuzzWhizzTest {
 
     @Test
     void should_return_Buzz_when_play_given_5() {
-        String result = new FiZZBuzzWhizz().play(3);
-        assertEquals("Fizz", result);
+        String result = new FiZZBuzzWhizz().play(5);
+        assertEquals("Buzz", result);
     }
 
 }
