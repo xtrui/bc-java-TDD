@@ -22,4 +22,16 @@ public class FizzBuzzWhizzTest {
         assertEquals("1", result);
     }
 
+    @Test
+    void should_return_Fizz_when_play_given_3() {
+        String result = new FiZZBuzzWhizz().play(3);
+        assertEquals("Fizz", result);
+    }
+
+    @Test
+    void should_return_Buzz_when_play_given_5() {
+        String result = new FiZZBuzzWhizz().play(3);
+        assertEquals("Fizz", result);
+    }
+
 }
