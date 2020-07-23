@@ -6,6 +6,16 @@ public class FiZZBuzzWhizz {
     }
 
     public String play(int count) {
-        return "1";
+        String result = "";
+        if (count == 1) {
+            result = "1";
+        } else {
+            if (count % 3 == 0) {
+                result += "Fizz";
+            }
+
+        }
+
+        return result;
     }
 }
