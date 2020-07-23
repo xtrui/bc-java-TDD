@@ -58,6 +58,12 @@ public class FizzBuzzWhizzTest {
         assertEquals("BuzzWhizz", result);
     }
 
+    @Test
+    void should_return_FizzBuzzWhizz_when_play_given_105() {
+        String result = new FiZZBuzzWhizz().play(105);
+        assertEquals("FizzBuzzWhizz", result);
+    }
+
 
 
 }
